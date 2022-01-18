@@ -4,9 +4,10 @@ h1 {
 .left {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    margin: 30px;
+    width: 30%;
+    margin: 30px 0 30px 30px;
     button {
+        width: 100%;
         margin: 30px 0;
         padding: 15px;
         background: linear-gradient(to left, white, black);
@@ -26,7 +27,7 @@ h1 {
 .right {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 100%;
     margin: 30px;
     .tab {
         display: none;
@@ -38,20 +39,12 @@ h1 {
         border-bottom: 2px solid white;
         border-right: 2px solid white;
         align-items: flex-start;
-        img {
-            width: 40%;
-        }
-        main {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
             img {
                 margin: 20px;
-                width: 35%;
-                height: 300px;
+                width: 80%;
+                height: auto;
             }
-        }
+        
     }
     .tabAnimation {
         display: flex;
