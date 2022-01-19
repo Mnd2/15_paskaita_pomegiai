@@ -15,7 +15,7 @@ function changeTab(target, name) {
 
     setTimeout(function(){
         show(name);
-      }, 10)
+      }, 100)
     
 }
 function show(name) {

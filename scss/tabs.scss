@@ -29,6 +29,7 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     margin: 30px;
     .tab {
         display: none;
@@ -42,7 +43,7 @@ h1 {
         align-items: flex-start;
             img {
                 margin: 20px;
-                width: 70%;
+                width: 50%;
             }
         
     }
